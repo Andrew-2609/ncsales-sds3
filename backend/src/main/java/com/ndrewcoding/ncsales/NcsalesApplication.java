@@ -1,0 +1,13 @@
+package com.ndrewcoding.ncsales;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class NcsalesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(NcsalesApplication.class, args);
+	}
+
+}
