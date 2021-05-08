@@ -1,4 +1,5 @@
 import ImgLogo from 'assets/img/my_logo.png';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
@@ -6,8 +7,10 @@ const NavBar = () => {
             <div className="container">
                 <nav className="my-2 my-md-0 mr-md-3">
                     <p className="h6 text-secondary">
-                    <img src={ImgLogo} alt="DevSuperior" width="50" />
-                    NdrewCoding
+                        <Link to="/">
+                            <img src={ImgLogo} alt="DevSuperior" width="50" />
+                            NdrewCoding
+                        </Link>
                     </p>
                 </nav>
             </div>
